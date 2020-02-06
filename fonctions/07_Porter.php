@@ -1,8 +1,30 @@
 <?php
+/*
+function affiche_mot($nom){
+    echo $nom;
+}
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+affiche_mot("Bonjour"); //affiche Bonjour
+echo $nom; //erreur car $nom n'est pas defini
 
+
+
+
+
+$nom =" Jean ";
+function affiche_mot($nom){
+    echo $nom;
+}
+
+afiche_mot("Bonjour"); // affiche Bonjour 
+echo $nom; // affiche Jean 
+*/
+
+$prenom = "Jean";
+function affiche_mot() {
+    echo $prenom; // affiche une erreur 
+}
+
+affiche_mot();
+
+?>
